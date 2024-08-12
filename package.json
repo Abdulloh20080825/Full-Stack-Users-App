@@ -1,0 +1,31 @@
+{
+  "name": "users-app",
+  "version": "1.0.0",
+  "description": "Users application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "js"
+  ],
+  "author": "Abdulloh Qurbonov",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

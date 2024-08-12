@@ -1,0 +1,19 @@
+<div
+	class='d-flex flex-column flex-md-row align-items-center p-3 mb-4 border-bottom'
+>
+	<a
+		href='/'
+		class='d-flex align-items-center link-body-emphasis text-decoration-none'
+	>
+		<span class='fs-2'>Users app</span>
+	</a>
+
+	<nav class='d-inline-flex mt-2 mt-md-0 ms-md-auto'>
+		{{#if token}}
+			<a class='btn mx-4' href='/logout'>Logout</a>
+		{{else}}
+			<a class='btn mx-4' href='/login'>Login</a>
+			<a class='btn mx-4' href='/register'>Register</a>
+		{{/if}}
+	</nav>
+</div>
